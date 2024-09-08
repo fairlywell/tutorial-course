@@ -1,0 +1,29 @@
+
+p {
+  font-family: Arial;
+  margin: 0 0;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+.time {
+  color: grey;
+
+}
+
+.as {
+  margin-top: 5px;
+  width: 550px;
+
+}
+
+.here {
+  margin-top: 20px;
+
+}
+.chp {
+  color: blue;
+}
