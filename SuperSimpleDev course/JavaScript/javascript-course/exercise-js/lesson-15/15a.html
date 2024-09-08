@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15a</title>
+</head>
+<body>
+  <script type="module">
+    import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
+    import isWeekendHmm from './15f.js'
+    let today = dayjs();
+    const date = today.add(2, 'days');
+    const dateMonthAfter = today.add(1, 'month');
+    const dateYesterday = today.subtract(1, 'month');
+    console.log(date.format('MMMM D'));
+    console.log(dateMonthAfter.format('MMMM D'));
+    console.log(dateYesterday.format('MMMM D'));
+
+    console.log(date.format('dddd'));
+
+
+    console.log(isWeekendHmm(date));
+    console.log(isWeekendHmm(dateMonthAfter));
+    console.log(isWeekendHmm(dateYesterday));
+  </script>
+</body>
+</html>

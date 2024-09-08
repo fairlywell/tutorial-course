@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12n</title>
+</head>
+<body>
+  <script>
+    function removeEgg(foods) {
+      let eggsRemoved = 0;
+      // trả về mảng foods 
+      // hàm call back nhận food là tham số nếu food k phải egg thì loại đi
+      // trả về kết quả của mảng foods sau khi lọc food với dkien food k phải egg
+      return foods.filter((food) => {
+
+        // nếu food là egg thì trả về false chỉ khi số trứng đã bỏ chưa nhỏ hơn 2 
+        if (food === 'egg' && eggsRemoved < 2) {
+          eggsRemoved++;
+          return false;
+        } 
+        return true;
+      });
+      }
+    console.log(removeEgg(['egg', 'apple', 'egg', 'egg', 'ham']));
+  </script>
+</body>
+</html>

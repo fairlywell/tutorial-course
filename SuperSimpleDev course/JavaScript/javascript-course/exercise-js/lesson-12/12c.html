@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12c</title>
+</head>
+<body>
+  <button class="js-start-button">
+    Start
+  </button>
+
+  <script>
+    document.querySelector('.js-start-button')
+      .addEventListener('click', () => {
+      const button = document.querySelector('.js-start-button');
+
+      
+      button.innerHTML = 'Loading...';
+      setTimeout(() => {
+        button.innerHTML = 'Finished!';
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

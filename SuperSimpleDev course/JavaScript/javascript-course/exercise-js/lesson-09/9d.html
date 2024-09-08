@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9d</title>
+</head>
+<body>
+    <input class="js-name-input" onkeydown="
+      if (event.key === 'Enter')  {
+        displayMessage();
+      }
+    ">
+    <button onclick="
+      displayMessage();
+    ">
+      Submit
+    </button>
+
+    <p class="js-your-name-display"></p>
+
+    <script>
+      function displayMessage() {
+        // lấy giá trị từ input có class .js-js-name-input
+        const inputElement = document.querySelector('.js-name-input');
+        // trỏ đến lớp .js-js-your-name-display và innerHTML lấy giá trị mà input nhập vào (value)
+        document.querySelector('.js-your-name-display')
+          .innerHTML = `Your name is: ${inputElement.value}`;
+      }
+    </script>
+</body>
+</html>

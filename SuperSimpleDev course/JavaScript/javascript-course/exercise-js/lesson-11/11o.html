@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11o</title>
+</head>
+<body>
+    <script>
+      /*
+      let words = ['hello', 'world', 'search', 'good'];
+
+      let index = -1;
+
+      for (let i = 0; i < words.length; i++) {
+        if (words[i] === 'search') {
+          index = i;
+        }
+      }
+      console.log(index);
+
+      words = ['not', 'search'];
+
+      index = -1;
+
+      for(let i = 0;i < words.length; i++) {
+        if (!words[i] === 'search') {
+          index = -1;
+        }
+      }
+      console.log(index);
+      */
+
+      // dùng break để khi gặp 1 từ search thoát lặp
+      let words2 = ['hello', 'world', 'search', 'good', 'search'];
+      
+      let index2 = -1;
+      
+      for (let i = 0; i < words2.length; i++ ) {
+        if (words2[i] === 'search') {
+          index2 = i;
+          break;
+        }
+      }
+
+      console.log(index2);
+
+      words2 = ['hello', 'world', 'good', 'search', 'search'];
+      index2 = -1;
+
+      for(let i = 0; i < words2.length; i++) {
+        if (words2[i] === 'search') {
+          index2 = i;
+          break;
+        }
+      }
+      console.log(index2);
+    </script>
+</body>
+</html>

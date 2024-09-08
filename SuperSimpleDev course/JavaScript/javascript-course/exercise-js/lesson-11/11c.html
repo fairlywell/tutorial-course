@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11c</title>
+</head>
+<body>
+  <script>
+    function arraySwap(array) {
+      // lastIndex lấy vị trí cuối
+      const lastIndex = array.length - 1;
+      // gán giá trị cuối bằng lastIndex
+      const lastValue = array[lastIndex];
+      // gán giá trị đầu bằng vị trí đâu [0]
+      const firstValue = array[0];
+      // gán phần tử 0 bằng giá trị cuối
+      array[0] = lastValue;
+      // gán phần tử cuối bằng phần từ đầu
+      array[lastIndex] = firstValue;
+
+      return array;
+    }
+    
+    console.log(arraySwap([1, 20, 22, 24, 5]));
+    console.log(arraySwap(['hi', 'hello', 'good']));
+  </script>
+</body>
+</html>

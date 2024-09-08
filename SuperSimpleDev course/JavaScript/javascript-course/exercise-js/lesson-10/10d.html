@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10d</title>
+</head>
+<body>
+  <style>
+    .js-studying-button {
+      background-color: rgb(223, 223, 223);
+      color: black;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .is-toggled {
+      background-color: black;
+      color: white;
+    }
+  </style> 
+
+  <button onclick="
+      studying();
+    " 
+    class="js-studying-button is-toggled ">
+    Studying</button>
+
+    <script>
+      function studying () {
+        const button = document.querySelector('.js-studying-button');
+
+        if (!button.classList.contains('is-toggled')) {
+          button.classList.add('is-toggled');
+        } else {
+          button.classList.remove('is-toggled');
+        }
+      }
+    </script>
+</body>
+</html>

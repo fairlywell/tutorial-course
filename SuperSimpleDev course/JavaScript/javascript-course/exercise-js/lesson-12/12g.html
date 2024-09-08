@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App</title>
+</head>
+<body>
+
+  <button class="messagesPlus"
+  >Add</button>
+  
+  <button class="messagesMinus">Remove</button>
+  <script>
+    document.querySelector('.messagesPlus').addEventListener('click', () => {
+      messages++;
+      displayNotification();
+    });
+
+    document.querySelector('.messagesMinus').addEventListener('click', () => {
+      if (messages > 0) {
+        messages--;
+        if (messages === 0) {
+          stopNotification();
+        }
+      }
+    });
+
+    let messages = 2;
+    // lưu trữ id khoảng thời gian
+    let intervalId;
+
+    // kiểm tra có hiển thị tb ko
+    let isDisplayingNotification;
+    //hiển thị ngay lần load page
+    displayNotification();
+
+    function displayNotification() {
+      // nếu hiển thị rồi trả về dừng hàm
+      if (isDisplayingNotification) {
+        return;
+      }
+    
+
+    isDisplayingNotification = true;
+
+    intervalId = setInterval(() => {
+
+      if (document.title === 'App') {
+        document.title = `(${messages}) New messages`;
+      } else {
+        document.title = 'App';
+      }
+    }, 1000);
+  }
+
+    function stopNotification() {
+      isDisplayingNotification = false;
+      // nếu tb sai hiển thị như cũ
+      clearInterval(intervalId);
+      document.title = 'App';
+    }
+  </script>
+</body>
+</html>
