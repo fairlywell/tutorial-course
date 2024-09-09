@@ -6,7 +6,7 @@ string fullName = firstName + lastName;
 Console.WriteLine(fullName);
 
 int x = 5;
-int y = 7;
+int y = 72;
 Console.WriteLine(x + y);
 
 Console.ReadKey();
