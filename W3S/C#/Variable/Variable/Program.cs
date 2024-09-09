@@ -17,9 +17,9 @@ namespace HelloWorld
             Console.WriteLine(doubleNum);
             char charLetter = 'A';
             bool myBool = true;
-            Console.WriteLine(charLetter); a
+            Console.WriteLine(charLetter);
             Console.WriteLine(myBool);
-            string myString = "Hello my friend";
+            string myString = "Hello my commit hhh";
             Console.WriteLine(myString);
         }
     }
