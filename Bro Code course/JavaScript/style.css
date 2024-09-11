@@ -1,0 +1,50 @@
+body {
+  background-color: antiquewhite;
+  font-family: Helvetica, sans-serif;
+}
+
+#myTitle {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myScoreC {
+  width: 40px;
+  margin-right: 15px;
+}
+
+#myScoreB {
+  width: 40px;
+  margin-right: 15px;
+}
+
+#myScoreA {
+  width: 40px;
+}
+
+.container2 {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#submitButton {
+  color: white;
+  background-color: black;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: block;
+}
