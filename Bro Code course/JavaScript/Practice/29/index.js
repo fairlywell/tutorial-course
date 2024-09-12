@@ -1,3 +1,4 @@
+//Dice roll
 function rollDice() {
   // khoi tao lay gia tri value tu input
   const numOfDice = document.getElementById("numOfDice").value;
