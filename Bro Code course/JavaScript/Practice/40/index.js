@@ -7,6 +7,7 @@ function Car(make, model, year, color) {
     console.log(`You drive the ${this.model} in ${this.year}`)
    }
 }
+// dung lai code chi can khai bao new va thuoc tinh gan vao
 
 const car1 = new Car("Ford", "Mustang", "2024", "red");
 
