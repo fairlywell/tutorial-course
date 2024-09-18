@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11r</title>
+</head>
+<body>
+  <script>
+    /*
+    function removeEgg(foods) {
+      const result = [];
+      let eggRemoved = 0;
+
+      for (let i = 0; i < foods.length; i++) {
+        if (foods[i] === 'egg' && eggRemoved < 2) {
+          eggRemoved++;
+          continue;
+        }
+        result.push(foods[i]);
+      }
+
+       return result;
+    }
+    console.log(removeEgg(['egg', 'apple', 'egg', 'egg', 'ham']));
+    */
+
+    function removeEgg(foods) {
+      // đảo mảng foods bằng reverse();
+      const foodsCopy = foods.slice();
+      const reversedFoods = foodsCopy.reverse();
+      const result = [];
+      let eggsRemoved = 0;
+
+      for (let i = 0; i < reversedFoods.length; i++) {
+        if (reversedFoods[i] === 'egg' && eggsRemoved < 2) {
+          eggsRemoved++;
+          continue;
+        }
+      
+      result.push(reversedFoods[i]);
+    }
+    // trả kết quả ngược lại đúng để k ngược
+    return result.reverse();
+  }
+
+  const foods = ['egg', 'apple', 'egg', 'egg', 'ham'];
+  console.log(removeEgg(foods));
+  console.log(foods); 
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  
+}
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-picture {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 35px;
+}
+.status {
+  flex: 1;
+}
+
+.username-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.username {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.username-link {
+  color: grey;
+}
+
+.status-x {
+  font-size: 17px;
+}
+
+.overview-link-youtube {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  align-items: center;
+  width: 370px;
+  margin-top: 15px;
+}
+
+.overview-youtube {
+  flex: 1;
+}
+.thumbnails {
+  background-color: rgb(190, 190, 190);
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+
+.link-youtube {
+  color: grey;
+  margin-bottom: 10px;
+}

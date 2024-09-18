@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8a</title>
+</head>
+<body>
+  <script>
+    const product = {
+      name: 'basketball',
+      price: 2095
+    };
+    console.log(product);
+
+    product.price +=500;
+    console.log(product);
+    
+    //sử dụng ngoặc vuông để thêm thuộc tính cũng như giá trị mới vào object
+    product['dilivery-time'] = '3 days';
+    console.log(product);
+
+    //tạo một hàm comparePrice(product1, product2) nhận hai đối tượng sản phẩm (có các thuộc tính name và price), và trả về sản phẩm nào rẻ hơn. Sau đó, bạn cần tạo hai đối tượng sản phẩm và thử nghiệm hàm này.
+
+    //tạo hàm so sánh, return sản phẩm rẻ hơn dùng if else
+    function comparePrice(product1, product2) {
+      if (product1.price < product2.price) {
+        return product1;
+      } else {
+        return product2;
+      }
+    }
+
+    //tạo 2 products 
+    const product1 = {
+      name: 'baseketball',
+      price: 2095
+    }
+    const product2 = {
+      name: 'sock',
+      price: 1090
+    }
+    //console.log hàm ra
+    console.log(comparePrice(product1, product2));
+  </script>
+</body>
+</html>

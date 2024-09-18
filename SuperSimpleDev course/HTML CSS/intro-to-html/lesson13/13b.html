@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13b</title>
+</head>
+<body>
+  <style>
+    .flex {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+
+    .col1 {
+      background-color: lightpink;
+      width: 100px;
+    }
+
+    .col2 {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    .row22 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .row2 {
+      background-color: black;
+      color: white;
+    }
+    .row23 {
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+  <div class="flex">
+    <div class="col1"></div>
+    <div class="col2">
+      <div class="row1">
+        row1
+      </div>
+      <div class="row22">
+        <div class="row2">
+          row2
+        </div>
+        <div class="row23">
+          row2
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

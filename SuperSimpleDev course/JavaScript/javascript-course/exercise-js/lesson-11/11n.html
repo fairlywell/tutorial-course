@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11n</title>
+</head>
+<body>
+    <script>
+      function countWords(words) {
+        const result = {};
+
+        // lặp i từ 0 trở đi
+        for (let i = 0; i < words.length; i++) {
+          // gán vị trí từ i trong mảng và gán cho biến word
+          const word = words[i];
+          // nếu word chưa xuất hiện trong result thì thêm word và result bằng 1( lần đầu xuất hiện )
+          if (!result[word]) {
+            result[word] = 1;
+          } else {
+          // else nếu đã xuất hiện thì cộng 1 tức là lần 2 đổ đi
+            result[word]++;
+          }
+        }
+        return result;
+    
+      }
+
+      console.log(countWords(['apple', 'grape', 'apple', 'apple']));
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15e</title>
+</head>
+<body>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .container {
+      display: inline-block;
+      position: relative;
+    }
+
+    .shirt {
+      width: 300px;
+    }
+
+    .sale-percent {
+      position: absolute;
+      right: 0;
+      top: 10px;
+      padding: 7px;
+      color: white;
+      background-color: black;
+    }
+
+    .bottom-bar {
+      position: absolute;
+      background-color: rgba(165, 165, 165, 0.493);
+      bottom: 0;
+      right: 0;
+      left: 0;
+      height: 90px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    .add-button {
+      padding: 10px 20px;
+      border-radius: 3px;
+      border-width: 1px;
+      position: absolute;
+    }
+  </style>
+  <div class="container">
+    <img class="shirt" src="shirt.jpg">
+ 
+    <div class="sale-percent">20% OFF</div>
+    <div class="bottom-bar">
+      <button class="add-button">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</body>
+</html>
