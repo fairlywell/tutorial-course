@@ -49,19 +49,24 @@
 // });
 
 let buttons = document.querySelectorAll(".myButtons");
-
+// gan buttons bang phan tu co lop la myButtons
 buttons.forEach(button => {
+  // lap tung phan tu va them class enabled cho cac nut
   button.classList.add("enabled");
 });
 
 buttons.forEach(buttons => {
   buttons.addEventListener("mouseover", event => {
+    // them mouseover dung addEventListenr cho all nut
     event.target.classList.toggle("hover");
+    //khi chuot di vao nut bat tat class hover 
+    // dung toggle dung de them hoac xoa hover
   });
 });
 
 buttons.forEach(buttons => {
   buttons.addEventListener("mouseout", event => {
+    // tuong tu voi khi roi chuot di ra voi mouseout
     event.target.classList.toggle("hover");
   });
 });
@@ -69,9 +74,11 @@ buttons.forEach(buttons => {
 buttons.forEach(buttons => {
   buttons.addEventListener("click", event => {
 
+// neu nut dang co class disabled thi them emoji 
     if(event.target.classList.contains("disabled")) {
       event.target.textContent += "🤬";
     } else {
+      // chua co class disabled thay the enabled bang lop disabled do
       event.target.classList.replace("enabled", "disabled");
     }
 
