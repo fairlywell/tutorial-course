@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\tutorial course\\W3S\\C#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "E:\\tutorial course\\Bro Code course\\C#\\MyCSharpApp\\MyCSharpApp.csproj": {}
   },
   "projects": {
-    "E:\\tutorial course\\W3S\\C#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "E:\\tutorial course\\Bro Code course\\C#\\MyCSharpApp\\MyCSharpApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tutorial course\\W3S\\C#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "E:\\tutorial course\\W3S\\C#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "E:\\tutorial course\\Bro Code course\\C#\\MyCSharpApp\\MyCSharpApp.csproj",
+        "projectName": "MyCSharpApp",
+        "projectPath": "E:\\tutorial course\\Bro Code course\\C#\\MyCSharpApp\\MyCSharpApp.csproj",
         "packagesPath": "C:\\Users\\phant\\.nuget\\packages\\",
-        "outputPath": "E:\\tutorial course\\W3S\\C#\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "E:\\tutorial course\\Bro Code course\\C#\\MyCSharpApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phant\\AppData\\Roaming\\NuGet\\NuGet.Config",
