@@ -1,0 +1,3 @@
+cd "E:/tutorial course/Bro Code course/React/my-react-app"
+
+npm run dev

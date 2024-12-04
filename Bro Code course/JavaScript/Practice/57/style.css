@@ -1,0 +1,26 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  background-image: url(Central_City_29.webp);
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  color: white;
+  font-size: 6em;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.452);
+  width: 100%;
+  backdrop-filter: blur(3px);
+}
