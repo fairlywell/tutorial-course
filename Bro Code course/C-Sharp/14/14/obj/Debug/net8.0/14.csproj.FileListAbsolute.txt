@@ -1,0 +1,15 @@
+E:\csharp\14\14\obj\Debug\net8.0\14.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\14\14\obj\Debug\net8.0\14.AssemblyInfoInputs.cache
+E:\csharp\14\14\obj\Debug\net8.0\14.AssemblyInfo.cs
+E:\csharp\14\14\obj\Debug\net8.0\14.csproj.CoreCompileInputs.cache
+E:\csharp\14\14\obj\Debug\net8.0\14.sourcelink.json
+E:\csharp\14\14\bin\Debug\net8.0\14.exe
+E:\csharp\14\14\bin\Debug\net8.0\14.deps.json
+E:\csharp\14\14\bin\Debug\net8.0\14.runtimeconfig.json
+E:\csharp\14\14\bin\Debug\net8.0\14.dll
+E:\csharp\14\14\bin\Debug\net8.0\14.pdb
+E:\csharp\14\14\obj\Debug\net8.0\14.dll
+E:\csharp\14\14\obj\Debug\net8.0\refint\14.dll
+E:\csharp\14\14\obj\Debug\net8.0\14.pdb
+E:\csharp\14\14\obj\Debug\net8.0\14.genruntimeconfig.cache
+E:\csharp\14\14\obj\Debug\net8.0\ref\14.dll

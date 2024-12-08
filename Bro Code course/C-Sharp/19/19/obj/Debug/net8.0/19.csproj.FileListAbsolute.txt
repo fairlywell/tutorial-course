@@ -1,0 +1,15 @@
+E:\csharp\19\19\bin\Debug\net8.0\19.exe
+E:\csharp\19\19\bin\Debug\net8.0\19.deps.json
+E:\csharp\19\19\bin\Debug\net8.0\19.runtimeconfig.json
+E:\csharp\19\19\bin\Debug\net8.0\19.dll
+E:\csharp\19\19\bin\Debug\net8.0\19.pdb
+E:\csharp\19\19\obj\Debug\net8.0\19.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\19\19\obj\Debug\net8.0\19.AssemblyInfoInputs.cache
+E:\csharp\19\19\obj\Debug\net8.0\19.AssemblyInfo.cs
+E:\csharp\19\19\obj\Debug\net8.0\19.csproj.CoreCompileInputs.cache
+E:\csharp\19\19\obj\Debug\net8.0\19.sourcelink.json
+E:\csharp\19\19\obj\Debug\net8.0\19.dll
+E:\csharp\19\19\obj\Debug\net8.0\refint\19.dll
+E:\csharp\19\19\obj\Debug\net8.0\19.pdb
+E:\csharp\19\19\obj\Debug\net8.0\19.genruntimeconfig.cache
+E:\csharp\19\19\obj\Debug\net8.0\ref\19.dll

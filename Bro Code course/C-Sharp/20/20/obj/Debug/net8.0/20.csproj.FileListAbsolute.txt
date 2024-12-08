@@ -1,0 +1,15 @@
+E:\csharp\20\20\bin\Debug\net8.0\20.exe
+E:\csharp\20\20\bin\Debug\net8.0\20.deps.json
+E:\csharp\20\20\bin\Debug\net8.0\20.runtimeconfig.json
+E:\csharp\20\20\bin\Debug\net8.0\20.dll
+E:\csharp\20\20\bin\Debug\net8.0\20.pdb
+E:\csharp\20\20\obj\Debug\net8.0\20.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\20\20\obj\Debug\net8.0\20.AssemblyInfoInputs.cache
+E:\csharp\20\20\obj\Debug\net8.0\20.AssemblyInfo.cs
+E:\csharp\20\20\obj\Debug\net8.0\20.csproj.CoreCompileInputs.cache
+E:\csharp\20\20\obj\Debug\net8.0\20.sourcelink.json
+E:\csharp\20\20\obj\Debug\net8.0\20.dll
+E:\csharp\20\20\obj\Debug\net8.0\refint\20.dll
+E:\csharp\20\20\obj\Debug\net8.0\20.pdb
+E:\csharp\20\20\obj\Debug\net8.0\20.genruntimeconfig.cache
+E:\csharp\20\20\obj\Debug\net8.0\ref\20.dll
