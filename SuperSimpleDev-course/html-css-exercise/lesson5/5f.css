@@ -1,0 +1,29 @@
+p {
+  font-size: Arial;
+  margin: 0;
+}
+
+.price {
+  font-size: 38px;
+}
+
+.price-usd {
+  color: grey;
+  font-size: 20px;
+}
+
+.percent {
+  color: green;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.change {
+  color: grey;
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+.change-number {
+  color: red;
+}

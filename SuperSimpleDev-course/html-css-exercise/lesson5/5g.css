@@ -1,0 +1,28 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.user-name {
+  color: grey;
+}
+
+.content {
+  margin-top: 8px;
+  font-size: 18px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.help {
+  font-size: 18px;
+}
+
+.link {
+  color: rgb(0, 153, 255);
+}
