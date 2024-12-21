@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .sidebar {
+      background-color: green;
+      color: white;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100px;
+    }
+
+    .all-sides {
+      background-color: rgba(0, 0, 0, 0.411);
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .flexbox {
+      background-color: white;
+      padding: 20px;
+      width: 300px;
+      border-radius: 6px;
+    }
+
+    .title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 14px;
+    }
+
+    .content {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .close {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    right sidebar
+  </div>
+
+  <div class="all-sides">
+    <div class="flexbox">
+      <div class="title">
+        Modal Title
+      </div>
+
+      <div class="content">
+        This is a modal
+      </div>
+
+      <button class="close">
+        Close
+      </button>
+    </div>
+  </div>
+</body>
+</html>
