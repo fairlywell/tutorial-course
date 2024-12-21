@@ -1,0 +1,58 @@
+.container {
+  width: 400px;
+  border: solid rgba(128, 128, 128, 0.274) 1px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.267);
+  font-family: Arial;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+.all-inboxes {
+  font-size: 14px;
+  color: gray;
+}
+
+.bottom-section {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+
+}
+
+.picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.info-person {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-person {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.time {
+  color: gray;
+  font-size: 14px;
+  margin-right: -4px;
+}
+
+.title-message {
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.message {
+  color: gray;
+  font-size: 15px;
+}
