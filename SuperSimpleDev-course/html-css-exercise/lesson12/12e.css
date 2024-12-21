@@ -1,0 +1,30 @@
+.flex-box {
+  border: 1px solid rgba(128, 128, 128, 0.356);
+  border-radius: 6px;
+  padding: 10px 12px;
+  width: 400px;
+}
+
+.home-row,
+.notifications-row,
+.messages-row {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.messages-row {
+  margin-bottom: 0;
+}
+
+.number {
+  padding: 5px 16px;
+  background-color: rgba(24, 73, 207, 0.747);
+  font-weight: bold;
+  font-family: Arial;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+}
